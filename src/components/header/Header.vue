@@ -1,11 +1,7 @@
 <template>
   <div>
-    <h1>
-      Vue Marbles
-    </h1>
-    <h3>
-      Interactive diagrams of Rx Observables
-    </h3>
+    <h1>Vue Marbles</h1>
+    <h3>Interactive diagrams of Rx Observables</h3>
   </div>
 </template>
 

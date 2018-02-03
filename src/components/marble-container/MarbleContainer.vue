@@ -1,18 +1,15 @@
 <template>
-  <div class="main-container">
-    Body
+  <div class="marble-container">
+    Marbles
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Main',
+  name: 'MarbleContainer',
 };
 </script>
 
 <style lang="scss" scoped>
-  .main-container {
-    display: grid;
 
-  }
 </style>

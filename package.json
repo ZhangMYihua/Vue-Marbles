@@ -10,11 +10,14 @@
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "test": "npm run unit",
     "lint": "eslint --ext .js,.vue src test/unit",
+    "lint:fix": "npm run lint -- --fix",
     "build": "node build/build.js"
   },
   "dependencies": {
+    "rxjs": "^5.5.6",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vue-rx": "^5.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

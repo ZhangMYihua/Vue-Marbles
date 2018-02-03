@@ -26,7 +26,7 @@ export default {
   display: grid;
   grid-template-rows: 120px 1fr;
   grid-template-columns: 1fr 300px 820px 1fr;
-  grid-template-areas: 
+  grid-template-areas:
     ". header header ."
     ". navigation main .";
 
